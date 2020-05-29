@@ -1,33 +1,139 @@
+$color: #606060;
+body {
+  overflow-x: hidden;
+}
 
+.header {
+  nav {
+    padding-left: 5%;
+    background-color: black !important;
+    img {
+      width: 15%;
+      padding-right: 30px;
+      padding-left: 40px;
+    }
+    ul {
+      padding-left: 20px;
+      li {
+        a {
+          font-size: 14px;
+          color: $color !important;
+          padding-right: 25px !important;
+        }
+      }
+    }
 
+    button {
+      background-color: white;
+    }
+  }
+}
+.unique {
+  padding: 70px 30px 30px 100px;
+  .what-unique {
+    font-size: 48px;
+    color: #8ad3df;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .content {
+    padding-bottom: 30px;
+    // padding-right: 50px;
+    h4 {
+      font-weight: bold;
+      .number {
+        padding: 7px 14px;
+        font-size: 18px;
+        color: white;
+        background-color: #8ad3df;
+        margin-right: 20px;
+        border-radius: 100%;
+      }
+    }
+    p {
+      font-size: 15px;
+      text-align: justify;
+      margin-left: 57px;
+    }
+  }
+  .recipe {
+    .row {
+      padding-left: 13px;
+      .col-md-4 {
+        padding: 7px;
+        .content {
+          box-shadow: 2px 4px 5px #c2c2c2;
+          background-color: #69696b;
+          border-top: 7px solid #8ad3df;
+          color: white;
+          padding: 15px 10px 15px 15px;
+          h5 {
+            padding-bottom: 5px;
+          }
+          P {
+            font-size: 13px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
 
 /* \footer area */
-.footer
-{
-    background-color: #171717;
+.footer {
+  background-color: #171717;
+  color: #606060;
+  padding: 25px 20px;
+  font-size: 13px;
+  border-top: 15px solid #333333;
+  .row {
+    .col-md-3 {
+      padding-left: 60px;
+      padding-right: 0;
+    }
+    .heading {
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
 }
 
 /* Meida Quries Mobiles */
 @media (max-width: 760px) {
-
-    
-}
-    
-/* Meida Quries IPad */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) 
-{
-       
-       
-    
-} 
-
- /* Media Quries IPad Pro */
-@media only screen 
- and (min-device-width: 1024px) 
- and (max-device-width: 1366px) 
- and (-webkit-min-device-pixel-ratio: 2)
-      {
-         
-        
+  nav {
+    img {
+      padding-left: 5% !important;
+      padding-right: 0 !important;
+      width: 45% !important;
+    }
+  }
+  .unique {
+    background-color: #efefef;
+    padding: 30px;
+    .what-unique {
+      font-size: 24px;
+    }
+    .content {
+      h4 {
+        font-size: 14px;
+        .number {
+          font-size: 14px;
+        }
       }
-      
+      p {
+        // font-size: 13px;
+        margin-left: 57px;
+      }
+    }
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+}
+
+/* Media Quries IPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}

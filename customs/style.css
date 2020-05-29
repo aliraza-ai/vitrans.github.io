@@ -1,0 +1,137 @@
+body {
+  overflow-x: hidden;
+}
+
+.header nav {
+  padding-left: 5%;
+  background-color: black !important;
+}
+
+.header nav img {
+  width: 15%;
+  padding-right: 30px;
+  padding-left: 40px;
+}
+
+.header nav ul {
+  padding-left: 20px;
+}
+
+.header nav ul li a {
+  font-size: 14px;
+  color: #606060 !important;
+  padding-right: 25px !important;
+}
+
+.header nav button {
+  background-color: white;
+}
+
+.unique {
+  padding: 70px 30px 30px 100px;
+}
+
+.unique .what-unique {
+  font-size: 48px;
+  color: #8ad3df;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.unique .content {
+  padding-bottom: 30px;
+}
+
+.unique .content h4 {
+  font-weight: bold;
+}
+
+.unique .content h4 .number {
+  padding: 7px 14px;
+  font-size: 18px;
+  color: white;
+  background-color: #8ad3df;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+.unique .content p {
+  font-size: 15px;
+  text-align: justify;
+  margin-left: 57px;
+}
+
+.unique .recipe .row {
+  padding-left: 13px;
+}
+
+.unique .recipe .row .col-md-4 {
+  padding: 7px;
+}
+
+.unique .recipe .row .col-md-4 .content {
+  -webkit-box-shadow: 2px 4px 5px #c2c2c2;
+          box-shadow: 2px 4px 5px #c2c2c2;
+  background-color: #69696b;
+  border-top: 7px solid #8ad3df;
+  color: white;
+  padding: 15px 10px 15px 15px;
+}
+
+.unique .recipe .row .col-md-4 .content h5 {
+  padding-bottom: 5px;
+}
+
+.unique .recipe .row .col-md-4 .content P {
+  font-size: 13px;
+  margin: 0;
+}
+
+/* \footer area */
+.footer {
+  background-color: #171717;
+  color: #606060;
+  padding: 25px 20px;
+  font-size: 13px;
+  border-top: 15px solid #333333;
+}
+
+.footer .row .col-md-3 {
+  padding-left: 60px;
+  padding-right: 0;
+}
+
+.footer .row .heading {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  nav img {
+    padding-left: 5% !important;
+    padding-right: 0 !important;
+    width: 45% !important;
+  }
+  .unique {
+    background-color: #efefef;
+    padding: 30px;
+  }
+  .unique .what-unique {
+    font-size: 24px;
+  }
+  .unique .content h4 {
+    font-size: 14px;
+  }
+  .unique .content h4 .number {
+    font-size: 14px;
+  }
+  .unique .content p {
+    margin-left: 57px;
+  }
+}
+
+/* Meida Quries IPad */
+/* Media Quries IPad Pro */
+/*# sourceMappingURL=style.css.map */
