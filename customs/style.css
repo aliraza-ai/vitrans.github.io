@@ -27,8 +27,47 @@ body {
   background-color: white;
 }
 
+.suit {
+  background-image: url("../images/suit.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 18%;
+}
+
+.suit img {
+  width: 27%;
+}
+
+.suit p {
+  text-align: left;
+  padding-left: 36.5%;
+}
+
+.creative {
+  background-image: url("../images/mobile.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+.creative .content {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.creative .content p {
+  color: black;
+}
+
 .unique {
   padding: 70px 30px 30px 100px;
+  background-color: #efefef;
 }
 
 .unique .what-unique {
@@ -61,15 +100,30 @@ body {
   margin-left: 57px;
 }
 
-.unique .recipe .row {
+.unique .hand {
+  background-image: url("../images/hand.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+
+.recipe-area {
+  background-image: url("../images/view.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 15%;
+}
+
+.recipe-area .recipe .row {
   padding-left: 13px;
 }
 
-.unique .recipe .row .col-md-4 {
+.recipe-area .recipe .row .col-md-4 {
   padding: 7px;
 }
 
-.unique .recipe .row .col-md-4 .content {
+.recipe-area .recipe .row .col-md-4 .content {
   -webkit-box-shadow: 2px 4px 5px #c2c2c2;
           box-shadow: 2px 4px 5px #c2c2c2;
   background-color: #69696b;
@@ -78,11 +132,11 @@ body {
   padding: 15px 10px 15px 15px;
 }
 
-.unique .recipe .row .col-md-4 .content h5 {
+.recipe-area .recipe .row .col-md-4 .content h5 {
   padding-bottom: 5px;
 }
 
-.unique .recipe .row .col-md-4 .content P {
+.recipe-area .recipe .row .col-md-4 .content P {
   font-size: 13px;
   margin: 0;
 }
@@ -114,6 +168,30 @@ body {
     padding-right: 0 !important;
     width: 45% !important;
   }
+  .suit {
+    padding-top: 10%;
+    padding-bottom: 8%;
+  }
+  .suit img {
+    width: 27%;
+  }
+  .suit p {
+    font-size: 18px;
+  }
+  .creative {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+  .creative .content {
+    padding-left: 5%;
+  }
+  .creative .content h1 {
+    font-size: 34px;
+  }
+  .creative .content p {
+    font-size: 18px;
+    padding-right: 42%;
+  }
   .unique {
     background-color: #efefef;
     padding: 30px;
@@ -129,6 +207,9 @@ body {
   }
   .unique .content p {
     margin-left: 57px;
+  }
+  .unique .hand {
+    height: 200px;
   }
 }
 
