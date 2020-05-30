@@ -346,6 +346,7 @@ $color: #606060;
     {
       font-size: 26px;
     }
+   
   }
 
 
@@ -353,6 +354,13 @@ $color: #606060;
 
 /* Meida Quries IPad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+   .success
+   {
+    .mycard
+    {
+     min-height: 260px; 
+    }
+   }
 }
 
 /* Media Quries IPad Pro */
@@ -362,5 +370,12 @@ $color: #606060;
   
     margin-right: 20px !important;
 
+  }
+  .success
+  {
+   .mycard
+   {
+    min-height: 190px; 
+   }
   }
 }

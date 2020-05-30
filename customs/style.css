@@ -301,10 +301,19 @@
 }
 
 /* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .success .mycard {
+    min-height: 260px;
+  }
+}
+
 /* Media Quries IPad Pro */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   .nav-item {
     margin-right: 20px !important;
+  }
+  .success .mycard {
+    min-height: 190px;
   }
 }
 /*# sourceMappingURL=style.css.map */
