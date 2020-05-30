@@ -1,0 +1,38 @@
+/* navbar */
+@import "_nav.scss";
+@font-face {
+    font-family: 'Blackcube Stencil';
+    src: url('Blackcube-Stencil.woff2') format('woff2'),
+        url('Blackcube-Stencil.woff') format('woff'),
+        url('Blackcube-Stencil.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* header Area */
+.header-area
+{
+    background-image: url("./../images/map.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 12%;
+
+    h1 {
+        font-family: 'Blackcube Stencil';
+        font-size: 52px;
+        color: white;
+        margin-bottom: 21px;
+    }
+    p
+    {
+        color: white;
+    }
+}
+
+
+
+/* footer */
+@import "_footer.scss";
