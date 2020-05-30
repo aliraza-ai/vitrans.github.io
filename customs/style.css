@@ -116,15 +116,13 @@
 
 .creative h1 {
   color: white;
-  font-family: "TheSans-500", serif;
-  font-size: 52px;
-  font-weight: 800;
-  line-height: 60px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
 }
 
 .creative p {
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
   line-height: 25px;
 }
 
@@ -185,6 +183,14 @@
     line-height: 26px;
     font-weight: bold;
     margin-top: 10px;
+    text-align: left;
+  }
+  .creative h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .creative p {
+    width: 55%;
     text-align: left;
   }
 }
