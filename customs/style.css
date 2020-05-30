@@ -213,6 +213,7 @@
 .success .mycard {
   background-color: #69696b;
   padding: 10px 10px;
+  min-height: 170px;
   border-top: 15px solid #8ad3df;
 }
 
