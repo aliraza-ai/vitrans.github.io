@@ -1,9 +1,10 @@
 @import url(//db.onlinewebfonts.com/c/4cbbd1066305840936e7d1e30aea9064?family=The+Mix-);
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
 @font-face {
-  font-family: 'Blackcube Stencil';
-  src: url("../fonts/Blackcube-Stencil.woff2") format("woff2"), url("../fonts/Blackcube-Stencil.woff") format("woff"), url("../fonts/Blackcube-Stencil.ttf") format("truetype");
-  font-weight: normal;
+  font-family: 'TheSans-500';
+  src: url("TheSans_B2_500_.eot");
+  src: local("?"), url("TheSans_B2_500_.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -102,6 +103,33 @@
   line-height: 26px;
   margin-top: 20px;
   text-align: justify;
+}
+
+/* Creative Araa */
+.creative {
+  background-image: url("./../images/mobile.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.creative h1 {
+  color: white;
+  font-family: "TheSans-500", serif;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.creative p {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 25px;
+}
+
+.creative .col-md-6 {
+  padding: 0;
 }
 
 /* \footer area */
