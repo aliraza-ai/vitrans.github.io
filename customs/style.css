@@ -1,13 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/4cbbd1066305840936e7d1e30aea9064?family=The+Mix-);
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
-@font-face {
-  font-family: 'TheSans-500';
-  src: url("TheSans_B2_500_.eot");
-  src: local("?"), url("TheSans_B2_500_.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
 /* navbar Area */
 .navbar-custom {
   background-color: black;
