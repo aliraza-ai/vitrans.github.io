@@ -130,6 +130,92 @@
   padding: 0;
 }
 
+/* make us unqiue area */
+.make-us {
+  background-color: #eeeeee;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.make-us h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color: #8ad3df;
+}
+
+.make-us .col-md-11 {
+  margin-left: 20px;
+}
+
+.make-us h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 5px;
+}
+
+.make-us p {
+  margin-top: 15px;
+}
+
+.make-us .data {
+  margin-top: 35px;
+}
+
+.make-us span {
+  background-color: #8ad3df;
+  padding: 3px 13px;
+  font-weight: bold;
+  font-size: 27px;
+  border-radius: 50%;
+  color: white;
+}
+
+.make-us .row {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* handing */
+.hand {
+  background-image: url("./../images/hand.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 23%;
+  padding-bottom: 23%;
+}
+
+/* abover footer */
+.success {
+  background-image: url("./../images/view.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 17%;
+  color: white;
+}
+
+.success h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color: #8ad3df;
+  margin-bottom: 30px;
+}
+
+.success h3 {
+  font-size: 18px;
+}
+
+.success p {
+  font-size: 15px;
+}
+
+.success .mycard {
+  background-color: #69696b;
+  padding: 10px 10px;
+  border-top: 15px solid #8ad3df;
+}
+
 /* \footer area */
 .footer {
   font-family: 'TheMix-300', serif;
