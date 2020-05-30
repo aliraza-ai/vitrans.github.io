@@ -1,0 +1,100 @@
+/* navbar */
+@import "_nav.scss";
+@font-face {
+    font-family: 'Blackcube Stencil';
+    src: url('Blackcube-Stencil.woff2') format('woff2'),
+        url('Blackcube-Stencil.woff') format('woff'),
+        url('Blackcube-Stencil.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TheSans-500';
+    src: url("TheSans_B2_500_.eot");
+    src: local("?"), url("TheSans_B2_500_.woff") format("woff"), url("TheSans_B2_500_.svg#filename") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* main area */
+.lighting
+{
+    background-image: url("./../images/light.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+
+    background-attachment: fixed, scroll;
+    padding-bottom: 50px;
+    h1 {
+        font-family: 'Blackcube Stencil';
+        font-size: 52px;
+        margin-top: 42px;
+        color: white;
+        margin-bottom: 21px;
+    }
+    h3
+    {
+        font-family: 'Blackcube Stencil';
+        color: white;
+        font-size:22px;
+    }
+    .mycard
+    {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        padding: 10px;
+        margin-top: 20%;
+        .logo
+        {
+            text-align: right;
+            padding: 0px 24px 18px;
+            img
+            {
+                width: 90px;
+            }
+        }
+        hr
+        {
+            background-color: silver;
+        }
+        a
+        {
+            font-family: 'TheSans-500', sans-serif;
+            color: white;
+            
+        }
+     
+   
+    }
+
+    .mycard1
+    {
+        background-color: white;
+        padding: 15px;
+        margin-top: 40px;
+        h3
+        {
+            text-transform: uppercase;
+            color: black;
+            margin-bottom: 4%;
+        }
+        .p1
+        {
+          
+          font-weight: bold; 
+          font-size: 14px;
+            color: #629ba5;
+            
+        }
+        p{
+            margin-bottom: 8%;
+        }
+    }
+
+}
+
+
+
+
+/* footer */
+@import "_footer.scss";

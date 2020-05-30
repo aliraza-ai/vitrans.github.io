@@ -1,0 +1,210 @@
+/* navbar */
+/* navbar Area */
+.navbar-custom {
+  background-color: black;
+  -webkit-box-shadow: 0 2px 6px -6px black;
+          box-shadow: 0 2px 6px -6px black;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.navbar-custom .nav-item {
+  margin-right: 40px;
+}
+
+.navbar-custom a:visited {
+  color: #ffffff;
+  border-bottom: 1px solid #8cd8e4;
+}
+
+.navbar-custom .nav-item:hover {
+  text-decoration: none;
+  opacity: 1;
+  border-bottom: 1px solid #888888;
+  margin-bottom: -1px;
+}
+
+.navbar-custom .active {
+  margin-left: 23px;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #888888;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #888888;
+  padding: 1rem 1rem;
+  padding: 16px 5px;
+  font-family: 'TheSans-500', sans-serif;
+  font-size: 14px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.scrolled-up {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  nav {
+    padding: 10px 16px !important;
+  }
+  .nav-item {
+    margin-left: 23px;
+    border-bottom: 1px solid #888888;
+  }
+}
+
+@font-face {
+  font-family: 'Blackcube Stencil';
+  src: url("Blackcube-Stencil.woff2") format("woff2"), url("Blackcube-Stencil.woff") format("woff"), url("Blackcube-Stencil.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TheSans-500';
+  src: url("TheSans_B2_500_.eot");
+  src: local("?"), url("TheSans_B2_500_.woff") format("woff"), url("TheSans_B2_500_.svg#filename") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* main area */
+.lighting {
+  background-image: url("./../images/light.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed, scroll;
+  padding-bottom: 50px;
+}
+
+.lighting h1 {
+  font-family: 'Blackcube Stencil';
+  font-size: 52px;
+  margin-top: 42px;
+  color: white;
+  margin-bottom: 21px;
+}
+
+.lighting h3 {
+  font-family: 'Blackcube Stencil';
+  color: white;
+  font-size: 22px;
+}
+
+.lighting .mycard {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20%;
+}
+
+.lighting .mycard .logo {
+  text-align: right;
+  padding: 0px 24px 18px;
+}
+
+.lighting .mycard .logo img {
+  width: 90px;
+}
+
+.lighting .mycard hr {
+  background-color: silver;
+}
+
+.lighting .mycard a {
+  font-family: 'TheSans-500', sans-serif;
+  color: white;
+}
+
+.lighting .mycard1 {
+  background-color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.lighting .mycard1 h3 {
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 4%;
+}
+
+.lighting .mycard1 .p1 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #629ba5;
+}
+
+.lighting .mycard1 p {
+  margin-bottom: 8%;
+}
+
+/* footer */
+/* \footer area */
+.footer {
+  font-family: 'TheMix-300', serif;
+  background-color: #222222;
+  border-top: 13px solid #333333;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.footer h6 {
+  margin: 0;
+  color: #868686;
+  font-size: 13px;
+}
+
+.footer a {
+  color: #868686;
+}
+
+.footer a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer h5 {
+  margin: 0;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+/*# sourceMappingURL=lightting.css.map */
