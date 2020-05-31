@@ -1,6 +1,19 @@
 /* navbar */
 @import "_nav.scss";
+@font-face {
+    font-family: 'Blackcube Stencil';
+    src: url('Blackcube-Stencil.woff2') format('woff2'),
+        url('Blackcube-Stencil.woff') format('woff'),
+        url('Blackcube-Stencil.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+/* main area */
+.contact
+{
+
+}
 
 
 
