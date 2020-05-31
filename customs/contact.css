@@ -97,6 +97,160 @@
 }
 
 /* main area */
+.contact {
+  background-image: url("./../images/contact.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 40px;
+  padding-bottom: 10%;
+}
+
+.contact h1 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Blackcube Stencil';
+}
+
+.contact input {
+  width: 100%;
+  background-color: #f4f4f2;
+  border: none;
+  padding: 5px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.contact input:focus {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.contact textarea {
+  width: 100%;
+  background-color: #f4f4f2;
+  border: none;
+  resize: none;
+  padding: 5px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.contact textarea:focus {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.contact .mycard {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 25px;
+  color: white;
+}
+
+.contact .mycard1 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 9%;
+  color: white;
+}
+
+.contact .mycard1 p {
+  font-size: 12px;
+}
+
+.contact .fa {
+  color: #888888;
+  font-size: 22px;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.contact .form {
+  position: relative;
+  color: #8ad3df;
+}
+
+.contact .form button {
+  position: absolute;
+  bottom: -23px;
+  border-radius: 50%;
+  border: none;
+  padding: 30px 23px;
+  color: white;
+  font-weight: bold;
+  background-color: #888888;
+  right: 60px;
+}
+
+.contact .form button:hover {
+  background-color: #8cd8e4;
+}
+
+.contact .form .fa {
+  color: #8ad3df;
+  font-size: 16px;
+}
+
+.contact .form .name {
+  position: relative;
+}
+
+.contact .form .name1 {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  top: 5px;
+}
+
+.contact .form .email {
+  position: relative;
+}
+
+.contact .form .email1 {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  top: 44px;
+}
+
+.contact .form .phone {
+  position: relative;
+}
+
+.contact .form .phone1 {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  top: 80px;
+}
+
+.contact .form .org {
+  position: relative;
+}
+
+.contact .form .org1 {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  top: 123px;
+}
+
+.contact .form .msg {
+  position: relative;
+}
+
+.contact .form .msg1 {
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  top: 163px;
+}
+
 /* footer */
 /* \footer area */
 .footer {
