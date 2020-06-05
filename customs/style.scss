@@ -5,77 +5,7 @@ $color: #606060;
 
 
 /* navbar Area */
-.navbar-custom
-{
-  background-color: black;
-  box-shadow: 0 2px 6px -6px black;
-  padding: 0;
-  padding-top: 5px;
-  padding-bottom: 2px;
-  .nav-item
-  {
-  
-    margin-right: 40px;
-
-  }
- 
-  a:visited 
-  {
-    color: #ffffff;
-    border-bottom: 1px solid #8cd8e4;
-   }
-
-  .nav-item:hover
-  {
-    text-decoration: none;
-    opacity: 1;
-    border-bottom: 1px solid #888888;
-    margin-bottom: -1px;
-  }
-  .active
-  {
-    margin-left: 23px;
-  }
-}
-.navbar-custom .nav-item.active .nav-link,
-    .navbar-custom .nav-item:hover .nav-link
-     {
-        color: #888888;
-    }
-    .navbar-custom .navbar-nav .nav-link {
-        color: #888888;
-        padding: 1rem 1rem;
-        padding: 16px 5px;
-        font-family: 'TheSans-500', sans-serif;
-        font-size: 14px;
-    }
-    .navbar-custom .navbar-brand,
-    .navbar-custom .navbar-text {
-        color: rgba(255,255,255,.8);
-     }
-    
-    
-    .navbar-toggler
-    {
-        border: 1px solid white;
-        color: white;
-    }
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-    .smart-scroll{
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-      z-index: 1030;
-    }
-    .scrolled-down{
-       transform:translateY(-100%); transition: all 0.2s ease-in-out;
-    }
-    .scrolled-up{
-       transform:translateY(0); transition: all 0.2s ease-in-out;
-    }
+@import "_nav.scss";
    
    /* Header Area */
    .header
@@ -96,7 +26,11 @@ $color: #606060;
     margin-top: 20px;
     text-align: justify;
     }
-
+    
+    .content
+    {
+      margin-left: 20%;
+    }
    }
   
   /* Creative Araa */
@@ -292,6 +226,10 @@ $color: #606060;
  font-weight: bold;
    margin-top: 10px;
    text-align: left;
+   }
+   .content
+   {
+    margin-left: 0;
    }
 
   }

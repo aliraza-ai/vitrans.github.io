@@ -1,6 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/4cbbd1066305840936e7d1e30aea9064?family=The+Mix-);
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
 /* navbar Area */
+/* navbar Area */
 .navbar-custom {
   background-color: black;
   -webkit-box-shadow: 0 2px 6px -6px black;
@@ -11,7 +12,7 @@
 }
 
 .navbar-custom .nav-item {
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 .navbar-custom a:visited {
@@ -79,6 +80,17 @@
   transition: all 0.2s ease-in-out;
 }
 
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  nav {
+    padding: 10px 16px !important;
+  }
+  .nav-item {
+    margin-left: 23px;
+    border-bottom: 1px solid #888888;
+  }
+}
+
 /* Header Area */
 .header {
   background-image: url("./../images/header.jpg");
@@ -95,6 +107,10 @@
   line-height: 26px;
   margin-top: 20px;
   text-align: justify;
+}
+
+.header .content {
+  margin-left: 20%;
 }
 
 /* Creative Araa */
@@ -263,6 +279,9 @@
     font-weight: bold;
     margin-top: 10px;
     text-align: left;
+  }
+  .header .content {
+    margin-left: 0;
   }
   .creative h1 {
     font-size: 25px;
